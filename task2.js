@@ -1,9 +1,16 @@
 //'use strict';
+<<<<<<< HEAD
 /* 1й урок
     let money = prompt("Ваш бюджет на месяц?", ""),
     time = prompt("Введите дату в формате DD-MM-YYYY", "");
 
    
+=======
+
+
+let money = prompt("Ваш бюджет на месяц?", ""),
+    time = prompt("Введите дату в формате DD-MM-YYYY", "");
+>>>>>>> 77a1ba839210a93ed97f092752b862c54177cf04
 
 let appData = {
     budget: money,
@@ -32,6 +39,7 @@ result = Number(a2) + Number(a4);
 appData.budget = appData.budget - result;
     
 alert(appData.budget / 30);
+<<<<<<< HEAD
 
 */
 
@@ -234,3 +242,5 @@ if (appData.moneyPerDay < 100) {
 } else {
     console.log ("Произошла ошибка");
 }
+=======
+>>>>>>> 77a1ba839210a93ed97f092752b862c54177cf04
